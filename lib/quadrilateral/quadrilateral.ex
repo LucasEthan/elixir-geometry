@@ -1,4 +1,4 @@
-defmodule Quadrilateral do
+defmodule Geometry.Quadrilateral do
   def perimeter({:square, side}) when is_number(side) and side > 0,
     do: {:ok, side * 4}
   def perimeter({:rhombus, side}) when is_number(side) and side > 0,

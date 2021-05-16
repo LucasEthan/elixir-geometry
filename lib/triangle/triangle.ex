@@ -1,4 +1,4 @@
-defmodule Triangle do
+defmodule Geometry.Triangle do
   def area({a, b, c}) do
     s = (a + b + c) / 2
     :math.sqrt(s * (s - a) * (s - b) * (s - c))
